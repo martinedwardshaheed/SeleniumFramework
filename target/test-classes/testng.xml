@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="task-one automation suite">
+	<test name="Regresssion Test" preserve-order="false">
+		<classes>
+			<class name="Tests.Testcat" />
+			
+			<class name="Tests.testprd" />
+			
+		</classes>
+	</test>
+</suite>

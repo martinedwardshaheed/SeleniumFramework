@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [task-one automation suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regresssion Test(failed)">
+    <classes>
+      <class name="Tests.testprd2">
+        <methods>
+          <include name="StopDriver"/>
+          <include name="productCreation"/>
+          <include name="StartDriver"/>
+        </methods>
+      </class> <!-- Tests.testprd2 -->
+    </classes>
+  </test> <!-- Regresssion Test(failed) -->
+</suite> <!-- Failed suite [task-one automation suite] -->
